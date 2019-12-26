@@ -1,0 +1,21 @@
+while True:
+    a = input("Знак операции")
+    if a == "0": break
+    if a in('+', '-', '*', '/'):
+     ch = int(input("число 1"))
+     cy = int(input("Число 2"))
+     if a == "+":
+         print(ch+cy)
+     elif a == "-":
+         print(ch-cy)
+     elif a == "*":
+         print(ch * cy)
+     elif a == "/":
+        if cy !=0:
+         print(ch / cy)
+     else:
+         print("Делить на 0")
+    else:
+     print("Неверный знак")
+
+search discriminant
